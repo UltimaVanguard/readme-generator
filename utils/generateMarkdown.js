@@ -26,9 +26,10 @@ function generateMarkdown(data) {
   if (data.licenses.length > 0) {
     for (let license of data.licenses) {
       licensesMarkdown += `${renderLicenseSection(license)} `
+      licenseSection += `${license.name}\n`
     } 
   } else {
-    data.licenses = 'Please refer to the LICENSE in the repo';
+    licenseSection = 'Please refer to the LICENSE in the repo';
   };
 
   for (let license of data.licenses) {
