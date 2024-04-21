@@ -39,7 +39,47 @@ const questions = [
          },
          {
             name: 'BSD 3-Clause',
-            value: {name: 'BSD 3-Clause', badge: 'BSD_3--Clause-red.svg', source: 'BSD-3-Clause'},
+            value: {name: 'BSD 3-Clause', badge: 'BSD_3--Clause-orange.svg', source: 'BSD-3-Clause'},
+         },
+         {
+            name: 'BSD 2-Clause',
+            value: {name: 'BSD 2-Clause', badge: 'BSD_2--Clause-orange.svg', source: 'BSD-2-Clause'},
+         },
+         {
+            name: 'Eclipse',
+            value: {name: 'Eclipse', badge: 'EPL_1.0-red.svg', source: 'EPL-1.0'},
+         },
+         {
+            name: 'IBM Public License',
+            value: {name: 'IBM Public License', badge: 'IPL_1.0-blue.svg', source: 'IPL-1.0'},
+         },
+         {
+            name: 'ISC',
+            value: {name: 'ISC', badge: 'ISC-blue.svg', source: 'ISC'},
+         },
+         {
+            name: 'MIT',
+            value: {name: 'MIT', badge: 'MIT-yellow.svg', source: 'MIT'},
+         },
+         {
+            name: 'Mozilla 2.0',
+            value: {name: 'Mozilla Public License 2.0', badge: 'MPL_2.0-brightgreen.svg', source: 'MPL-2.0'},
+         },
+         {
+            name: 'Perl',
+            value: {name: 'Perl', badge: 'Perl-0298c3.svg', source: 'Perl'},
+         },
+         {
+            name: 'Artistic License 2.0',
+            value: {name: 'Artistic License 2.0', badge: 'Artistic_2.0-0298c3.svg', source: 'Artistic-2.0'},
+         },
+         {
+            name: 'SIL Open Font License 1.1',
+            value: {name: 'SIL Open Font License 1.1', badge: 'OFL_1.1-lightgreen.svg', source: 'OFL-1.1'},
+         },
+         {
+            name: 'Zlib',
+            value: {name: 'Zlib', badge: 'Zlib-lightgrey.svg', source: 'Zlib'},
          },
       ],
      },
