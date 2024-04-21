@@ -32,7 +32,16 @@ const questions = [
         type: 'checkbox',
         message: 'Any licenses?',
         name: 'licenses',
-        choices: ['placeholder'],
+        choices: [
+         {
+            name: 'Apache 2.0', 
+            value: {name: 'Apache 2.0', badge: 'Apache_2.0-blue.svg', source: 'Apache-2.0'},
+         },
+         {
+            name: 'BSD 3-Clause',
+            value: {name: 'BSD 3-Clause', badge: 'BSD_3--Clause-red.svg', source: 'BSD-3-Clause'},
+         },
+      ],
      },
      {
         type: 'input',
