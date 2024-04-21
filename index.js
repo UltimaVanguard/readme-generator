@@ -1,7 +1,10 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const markdown = require('./utils/generateMarkdown.js')
+const markdown = require('./utils/generateMarkdown.js');
+
+console.log(markdown)
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -29,16 +32,16 @@ const questions = [
         type: 'checkbox',
         message: 'Any licenses?',
         name: 'licenses',
-        choices: ['placeholder', 'See the repo for license information.'],
+        choices: ['placeholder'],
      },
      {
         type: 'input',
         message: 'Did you have any contributors?',
-        name: 'contributors',
+        name: 'contributions',
      },
      {
         type: 'input',
-        message: 'what testing did you do?',
+        message: 'What testing did you do?',
         name: 'tests',
      },
      {
@@ -68,8 +71,8 @@ function init() {
     inquirer
         .prompt(questions)
         .then((answers) => {
-            const newReadme = markdown.generateMarkdown(answers);
-            writeToFile('README.md', newReadme);
+            const newReadme = markdown(answers);
+            writeToFile('test.md', newReadme);
         });
 };
 
