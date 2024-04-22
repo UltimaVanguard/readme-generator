@@ -112,7 +112,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (error) => 
-    error ? console.error(error) : console.log(`${fileName} successfully written!`));
+    error ? console.error(error) : console.log(`File successfully written!`));
 };
 
 // TODO: Create a function to initialize app
@@ -121,7 +121,7 @@ function init() {
         .prompt(questions)
         .then((answers) => {
             const newReadme = markdown(answers);
-            writeToFile('test.md', newReadme);
+            writeToFile('./Test/README.md', newReadme);
         });
 };
 
