@@ -1,9 +1,8 @@
-# readme-generator
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) [![License](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) [![License](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) [![License](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)](https://opensource.org/licenses/OFL-1.1) 
-
+# logo-maker
+  
 # Description
 
-  I am creating a readme generator to help create professional readmes quickly and easily.
+  I am creating a logo-maker to make simple SVG logos quickly for a project or just as simple placeholders.
 
 ## Table of Contents
   [Installation](#Installation)
@@ -24,7 +23,7 @@
   
 ## Usage
   
-  Type "node index.js" into the command line, hit enter, and follow the prompts.
+  Type 'node index.js' on the command line, hit enter, and follow the prompts.
   
 ## Contributions
   
@@ -32,17 +31,7 @@
   
 ## License
   
-  Apache 2.0
-BSD 2-Clause
-ISC
-Mozilla Public License 2.0
-SIL Open Font License 1.1
-Apache 2.0
-BSD 2-Clause
-ISC
-Mozilla Public License 2.0
-SIL Open Font License 1.1
-
+  Please refer to the LICENSE in the repo
 
 ## Tests
 
@@ -54,4 +43,4 @@ SIL Open Font License 1.1
 
   My Email is: ultimavanguard@gmail.com
 
-  Nope!
+  If you have any issues, send me an email and I'll get back to you.
