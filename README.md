@@ -5,7 +5,7 @@
   I built the readme generator to help build professional readmes quickly and easily. Since I already pull an old readme as a starting point, I figured this needed to be a bit more automated.
 
 ## Table of Contents
-  [Installation](#Installation)
+  [Installation](#installation)
 
   [Usage](#Usage)
 
