@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   if (data.licenses.length > 0) {
     for (let license of data.licenses) {
       licensesMarkdown += `${renderLicenseSection(license)} `
-      licenseSection += `${license.name}\n`
+      licenseSection += `This software licensed under ${license.name} license<br>`
     } 
   } else {
     licenseSection = 'Please refer to the LICENSE in the repo';
@@ -37,7 +37,7 @@ function generateMarkdown(data) {
 
   // Getting all the licenses in the license section
   for (let license of data.licenses) {
-    licenseSection += `${license.name}\n`
+    licenseSection += `${license.name}`
   }
   // Returning Markdown file
   return `# ${data.title}
@@ -48,7 +48,7 @@ function generateMarkdown(data) {
   ${data.description}
 
 ## Table of Contents
-  [Installation](#Installation)\n
+  [Installation](#installation)\n
   [Usage](#usage)\n
   [Contributions](#contributions)\n
   [Licenses](#licenses)\n
