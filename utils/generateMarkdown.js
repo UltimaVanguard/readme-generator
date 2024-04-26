@@ -35,10 +35,6 @@ function generateMarkdown(data) {
     licenseSection = 'Please refer to the LICENSE in the repo';
   };
 
-  // Getting all the licenses in the license section
-  for (let license of data.licenses) {
-    licenseSection += `${license.name}`
-  }
   // Returning Markdown file
   return `# ${data.title}
   ${licensesMarkdown}
