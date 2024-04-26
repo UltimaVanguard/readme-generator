@@ -67,7 +67,7 @@ function generateMarkdown(data) {
   
   ${data.contributions}
   
-## License
+## Licenses
   
   ${licenseSection}
 
